@@ -1,0 +1,205 @@
+/*
+ * Flexy HTML5 Multipurpose Theme v1.8
+ * Copyright 2015 8Guild.com
+ * Specific Styles for Theme Options page
+ */
+
+
+/* Google font import */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic);
+
+/****** INCLUDING BOOTSTRAP & ICON FONTS
+*************************************************************/
+
+/* Bootstrap minified css */
+@import'bootstrap.css';
+
+/* Font Awesome minified css */
+@import'fonts-css/font-awesome.min.css';
+
+@import'typography.css';
+
+
+/** Scaffolding
+*************************************************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+
+  overflow-x: hidden;
+
+  color: #4c4c4c;
+}
+a,
+a:focus {
+  transition: .2s;
+  text-decoration: none;
+
+  color: #0893d2;
+  outline: none !important;
+}
+a:hover {
+  text-decoration: underline;
+
+  color: #0893d2;
+}
+img {
+  width: 100%;
+}
+.wrapper {
+  position: relative;
+}
+.container {
+  position: relative;
+  z-index: 1;
+}
+.color-overlay {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+  opacity: .6;
+  background-color: #000;
+}
+.margin-top {
+  margin-top: 46px !important;
+}
+.margin-top-2x {
+  margin-top: 92px !important;
+}
+.margin-top-3x {
+  margin-top: 138px !important;
+}
+.margin-bottom {
+  margin-bottom: 46px !important;
+}
+.margin-bottom-2x {
+  margin-bottom: 92px !important;
+}
+.margin-bottom-3x {
+  margin-bottom: 138px !important;
+}
+
+@media (max-width: 768px) {
+  .margin-top {
+    margin-top: 24px !important;
+  }
+  .margin-top-2x {
+    margin-top: 70px !important;
+  }
+  .margin-bottom {
+    margin-bottom: 24px !important;
+  }
+  .margin-bottom-2x {
+    margin-bottom: 70px !important;
+  }
+}
+
+/*Buttons
+**************************************/
+.btn {
+  font-size: 1.142em;
+  padding: 6px 16px;
+  transition: .3s;
+}
+.btn-lg {
+  font-size: 1.285em;
+  padding: 7px 36px;
+  transition: .3s;
+}
+.btn-sm {
+  font-size: .857em;
+  padding: 7px 36px;
+}
+.btn-xs {
+  font-size: .857em;
+  padding: 3px 36px;
+}
+.btn-primary {
+  border-color: #0893d2 ;
+  background-color: #0893d2;
+}
+.btn-primary:hover {
+  border-color: #46aedd ;
+  background-color: #46aedd ;
+}
+.btn-primary-outline {
+  color: #0893d2 ;
+  border-color: #0893d2 ;
+  background-color: transparent;
+}
+.btn-primary-outline:hover {
+  color: #fff!important;
+  border-color: #0893d2;
+  background-color: #0893d2;
+}
+
+/** Choosing Version
+****************************************/
+.choosing-header h1 {
+  font-weight: 500;
+  font-size: 72px;
+  margin: 100px auto 50px;
+}
+.choosing-header h2 {
+  margin-bottom: 40px;
+}
+.choosing-header .btn {
+  margin-bottom: 40px;
+}
+.select-item {
+  display: block;
+}
+.select-item:hover {
+  text-decoration: none;
+}
+.select-item h5 {
+  margin: 50px auto 50px;
+  color: #34a5dd;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: color .3s;
+          transition: color .3s;
+}
+.select-item:hover h5 {
+  color: #000;
+}
+.imac-mask-cont {
+  position: relative;
+  overflow: hidden;
+  max-width: 300px;
+  margin: 20px auto 30px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all .3s;
+          transition: all .3s;
+}
+.select-item:hover .imac-mask-cont {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+}
+.imac-mask {
+  position: relative;
+  z-index: 20;
+}
+.imac-img {
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  padding: 4% 2% 0 2%;
+}
+
+/****** FOOTER STYLES
+*************************************************************/
+.footer-copyright {
+  font-size: .857em;
+  margin-top: 50px;
+  padding: 16px 0;
+  text-align: center;
+  color: #9e9e9e;
+  background: #f0f0f0;
+}

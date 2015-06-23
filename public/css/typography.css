@@ -1,0 +1,416 @@
+h1,
+.h1 {
+  font-size: 2.857em;
+}
+h2,
+.h2 {
+  font-size: 2.571em;
+
+  margin-top: 0;
+}
+h3,
+.h3 {
+  font-size: 1.714em;
+}
+h4,
+.h4 {
+  font-size: 1.285em;
+}
+h5,
+.h5 {
+  font-size: 1.142em;
+}
+h6,
+.h6 {
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #151515;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  color: #34a5dd;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h4,
+h5 {
+  font-weight: 700;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+ul li,
+ol li {
+  padding: 5px 0;
+
+  color: #4c4c4c;
+}
+ul li ul li,
+ol li ul li {
+  padding: 1px 0;
+}
+
+/*Header*/
+
+.top-bar {
+  font-size: 14px;
+
+  color: #aaa;
+}
+.top-bar a {
+  font-size: 14px;
+
+  color: #aaa;
+}
+.top-bar li {
+  font-size: 14px;
+
+  color: #aaa;
+}
+.top-bar ul li a {
+  text-align: center;
+}
+.top-bar ul li a:hover {
+  text-decoration: none;
+
+  color: #03a9f4;
+}
+.top-bar ul.adress-bar a:hover,
+.top-bar ul.social-bar a:hover {
+  color: #03a9f4;
+}
+
+/*Language switcher*/
+
+.language-switcher {
+  margin-top: 5px;
+}
+.language-switcher span:hover {
+  color: #03a9f4;
+}
+.language-switcher li {
+  padding-top: 0;
+}
+
+/*Navigation*/
+
+.navbar-collapse {
+  text-align: center;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus {
+  font-size: 1.142em;
+  font-weight: 300;
+
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #03a9f4;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #03a9f4;
+}
+.opaque .navbar-default .navbar-nav > li > a {
+  color: #151515;
+}
+.opaque .navbar-default .navbar-nav > li > a:hover {
+  color: #03a9f4  ;
+}
+.opaque .navbar-default .navbar-nav > li > a.btn-primary-outline {
+  color: #03a9f4;
+}
+.opaque .navbar-default .navbar-nav > li > a.btn-primary-outline:hover {
+  color: #fff;
+}
+.navbar-default .navbar-right .btn {
+  color: #0893d2;
+}
+.no-animation .navbar-collapse a {
+  color: #151515 !important;
+}
+.no-animation .navbar-collapse .dropdown-menu a, .no-animation .navbar-collapse .dropdown-menu a:hover {
+  color: #151515 !important;
+}
+
+/* Style pages */
+
+.styles-page {
+  font-size: 1.875em;
+
+  color: #b5b4b4;
+}
+.block-header {
+  font-size: 2.857em;
+}
+.subtitle {
+  color: #9a9a9a;
+}
+
+/*Tabs block*/
+
+.tabs-horizontal .nav-tabs a {
+  font-size: 1.285em;
+  color: #4c4c4c;
+}
+.tabs-horizontal .nav-tabs a:hover {
+  color: #fff;
+}
+.tabs-horizontal .nav-tabs li.active a {
+  color: #fff;
+}
+
+.tabs-vertical .tabs-slider-button li.active a, .tabs-vertical .tabs-slider-button li.active a p {
+  color: #fff;
+}
+.tabs-vertical .tabs-slider-button li a {
+  font-size: 16px;
+  font-weight: 600;
+
+  text-align: left;
+
+  color: #151515;
+}
+.tabs-vertical .tabs-slider-button li a:hover {
+  text-decoration: none;
+}
+.tabs-vertical .tabs-slider-button li a p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+
+/*Iphone tabs*/
+
+.iphone-nav-title {
+  font-size: 24px;
+  font-weight: 300;
+
+  color: #151515;
+}
+.iphone-nav-title span {
+  color: #0893d2;
+}
+.active .iphone-nav-title span {
+  color: #b2b2b2;
+}
+.iphone-nav-title p {
+  font-size: 14px;
+}
+.iphone-slide-title {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1;
+
+  color: #151515;
+}
+.iphone-slide-subtitle {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+
+  color: #b2b2b2;
+}
+.iphone-tabs .tab-content p {
+  font-size: 14px;
+
+  color: #4c4c4c;
+}
+
+/*Full Width Subscribe*/
+
+.full-width-subscribe .subtitle {
+  font-weight: 300;
+}
+.full-width-subscribe h1 {
+  color: #fff;
+}
+
+/*Sign Up modal */
+
+.modal-header {
+  font-size: 40px;
+}
+.modal-header {
+  color: #fff;
+}
+.modal-body .subtitle {
+  font-size: 16px;
+}
+
+/*Team*/
+
+.team p {
+  font-size: 16px;
+
+  color: #9a9a9a;
+}
+
+/*Digitizer*/
+
+.digitizer h2,
+.digitizer h4,
+.digitizer p {
+  color: #fff;
+}
+.digit {
+  font-size: 40px;
+  font-weight: 300;
+
+  color: #fff;
+}
+.digitizer .subtitle {
+  color: #fff;
+}
+.digitizer i {
+  color: #34a5dd;
+}
+
+/*Comment carousel*/
+
+.over-text blockquote {
+  color: #d6d6d6;
+}
+.owl-item.center .over-text blockquote {
+  color: #fff;
+}
+
+/*Prices*/
+
+.price-inner h2 {
+  color: #fff;
+}
+.cost-line {
+  font-size: 48px;
+  font-weight: 300;
+
+  color: #fff;
+}
+.cost-line span {
+  font-size: 24px;
+}
+
+/*Post*/
+
+.meta-post {
+  color: #9c9c9c;
+}
+.read-more {
+  font-size: 18px;
+}
+
+/*Recent post*/
+
+.recent-post .meta-post {
+  font-size: 12px;
+}
+.recent-post .post-data:hover {
+  text-decoration: none;
+}
+
+/*Pager pagination*/
+
+.pager a {
+  color: #9a9a9a;
+}
+.pager a:hover {
+  color: #0893d2;
+}
+
+/*Latest Tweet*/
+
+.latest-tweet {
+  color: #9c9c9c;
+}
+.latest-tweet span {
+  font-size: 12px;
+}
+
+/*Comments block*/
+
+.media-heading {
+  color: #9a9a9a;
+}
+
+/*Hero block*/
+
+.typed-container {
+  color: #fff;
+}
+.typing-block {
+  font-size: 52px;
+}
+.typed-container p {
+  font-size: 18px;
+}
+.hero-bg a {
+  font-size: 16px;
+}
+.hero-bg i {
+  font-size: 18px;
+}
+.hero-bg {
+  color: #fff;
+}
+.hero-bg h2 {
+  color: #fff;
+}
+.form-hero .checkbox {
+  color: #000;
+}
+
+/*Footer*/
+
+.subscribe-text {
+  font-size: 2.142em;
+  font-weight: 300;
+  line-height: 1;
+
+  color: #fff;
+}
+.footer-content address {
+  line-height: 2;
+}
+
+
+@media (max-width: 1023px) {
+  .navbar-default .navbar-collapse .navbar-nav > li > a,
+  .navbar-default .navbar-collapse .navbar-nav > li > a:focus {
+    color: #151515;
+  }
+  .navbar-default .navbar-collapse .navbar-nav > li > a:hover {
+    color: #03a9f4;
+  }
+  .navbar-default .navbar-collapse .navbar-nav > li > a.btn-primary-outline,
+  .navbar-default .navbar-collapse .navbar-nav > li > a.btn-primary-outline:focus {
+    color: #03a9f4;
+  }
+  .navbar-default .navbar-collapse .navbar-nav > li > a.btn-primary-outline:hover {
+    color: #fff;
+  }
+
+}

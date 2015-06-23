@@ -1,0 +1,36 @@
+/*Change this hex color, to make different font color*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,.navbar-default .navbar-nav > li > a:hover, a, a:focus, .icons-block [class*='icon-'], h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, .digitizer i, a:hover, .opaque .navbar-default .navbar-nav > li.active > a, .opaque .navbar-default .navbar-nav > li > a:hover, .checkedItem:before, .text-and-icon i, .iphone-nav-title span, .top-bar ul.adress-bar a:hover, .top-bar ul.social-bar a:hover, .language-switcher span:hover, .top-bar ul li a:hover, .refresh a:hover, .post-social a:hover, .pager a:hover, .select-item h5, .switcher-list-block a:hover, .switcher-list-block li.cur-page a, .color-switcher .toggle {
+	color: #00cb38;
+}
+
+/*Change this hex color, to make different font color*/
+.btn-primary-outline, .no-animation .navbar-collapse .active a, .no-animation .navbar-default a:hover, .no-animation .navbar-default .navbar-right .btn, .no-animation .navbar-default .navbar-right a:hover {
+	color: #00cb38 !important;
+}
+
+/*Change this hex color, to make different background color of elements*/
+.tabs-horizontal .nav-tabs li.active a, .btn-primary, .scrollTop-btn, .btn-primary-outline:hover, .navbar-default .navbar-right .btn:hover, .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary, .tabs-vertical .tabs-slider-button li.active, .tab-next-prev:hover {
+	background-color: #00cb38;	
+}
+
+/*Change this color, to make different background color of elements
+	But here we are used rgba color format, to add some trasparency,
+	you can convert it at http://hex2rgba.devoth.com/ */
+.btn-primary:hover, .tabs-horizontal .nav-tabs a:hover {
+	background-color: rgba(0, 203, 56, .5);
+}
+
+/*Change this hex color, to make different border color of elements*/
+.btn-primary-outline, .btn-primary-outline:focus, .btn-primary-outline:hover, .btn-primary, .btn-primary:hover, .tabs-horizontal .nav-tabs li.active, .footer-subscribe .container input, .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary, .full-width-subscribe .form-group input, .cta .form-group input {
+	border-color: #00cb38;
+}
+
+/*Change this color, to make different forms outline color
+	But here we are used rgba color format, to add some transparency,
+	you can convert it at http://hex2rgba.devoth.com/ */
+.form-control:focus {
+	border-color: rgba(0, 203, 56, .3);
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 203, 56, .3), 0 0 8px rgba(0, 203, 56, .4);
+	box-shadow: inset 0 1px 1px rgba(0, 203, 56, .3), 0 0 8px rgba(0, 203, 56, .4);
+}
