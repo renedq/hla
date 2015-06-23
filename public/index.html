@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>HLA Matchmaker</title>
+
+  <!--SEO Meta Tags-->
+  <meta name="description" content="HLA Matchmaker" />
+  <meta name="keywords" content="hla matchmaker epitopes" />
+  <meta name="author" content="rene duquesnoy reneduquesnoy" />
+
+  <!--Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  <!-- Page Specific Styles -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!-- Page Specific Color Styles -->
+  <link class="color-scheme" href="css/colors/blue.css" rel="stylesheet" media="screen">
+
+  <!--Modernizr-->
+  <script src="js/libs/modernizr.custom.js"></script>
+
+  <!--Modernizr extention-->
+  <script src="js/libs/detectizr.min.js"></script>
+  <link rel="stylesheet" href="/bootstrap-3.3.2/css/bootstrap.css">
+  <script src="/vendor.js"></script>
+  <script src="/app.js"></script>
+</head>
+
+<body class="parallax">
+  <span class="scroll-up scrollTop-btn"><i class="fa fa-chevron-up"></i></span>
+
+    <!-- Navbar -->
+    <header class="header header-animated">
+      <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <a class="logo" href="index.html">
+              <img src="img/logo-dark.png" data-logo-default="img/logo-light.png" data-logo-alt="img/logo-dark.png" alt="HLA Matchmaker" />
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="" class="btn btn-primary-outline" data-toggle="modal" data-target="#signUp">Sign Up</a>
+              </li>
+              <li>
+                <a href="" data-toggle="modal" data-target="#login">Login</a>
+              </li>
+            </ul>
+
+            <ul class="nav navbar-nav collapsed-color">
+
+              <li class="active">
+                <a href="#" class="scroll-up">Home</a>
+              </li>
+              <li>
+                <a href="#what" class="scroll">What</a>
+              </li>
+              <li>
+                <a href="#publications" class="scroll">Publications</a>
+              </li>
+              <li>
+                <a href="#presentations" class="scroll">Presentations</a>
+              </li>
+              <li>
+                <a href="#conferences" class="scroll">Conferences</a>
+              </li>
+              <li>
+                <a href="#downloads" class="scroll">Downloads</a>
+              </li>
+              <li>
+                <a href="#team" class="scroll">Team</a>
+              </li>
+            </ul>
+          </div>
+          <!-- .navbar-collapse -->
+        </nav>
+      </div>
+    </header>
+    <!-- ***** HEADER END ***** -->
+
+    <!-- ***** HERO BACKGROUND BLOCK ***** -->
+    <div class="hero-bg">
+      <div class="color-overlay"></div>
+      <ul class="web">
+        <li style="background-image: url(img/hero-bg/fader1/1.jpg)"></li>
+        <li style="background-image: url(img/hero-bg/fader1/2.jpg)"></li>
+        <li style="background-image: url(img/hero-bg/fader1/3.jpg)"></li>
+      </ul>
+      <div class="hero-fader">
+        <div class="aligned-container">
+          <div class="container">
+            <h1>HLA Matchmaker</h1>
+            <p class="margin-bottom margin-top">An Algorithm for Epitopes<br>
+            A structurally based computer algorithm to define epitopes recognized by HLA antibodies and to determine epitope-based mismatch acceptability for sensitized patients considered for organ transplantation or in need of compatible platelet transfusions 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="content main-animation">
+
+      <!-- ***** ICONS ***** -->
+      <section class="icons-block margin-top-2x" id="what">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="block-header">
+              <span>What</span> is structurally based HLA matchmaking?
+            </h2>
+            <div class="col-md-offset-2 col-md-8 text-justify">
+                <p>In organ transplantation, the degree of matching is generally determined by counting the number of mismatched HLA-A, B, DR antigens of the donor. It is well known that the zero-antigen mismatches have the highest success rates but why do so many mismatched transplants do so well? The answer to this question may be related to the fact that antibodies produced against HLA mismatches are significant risk factors for transplant failure.</p>
+                <p>An important consideration is that HLA antigens have multiple epitopes that can be recognized by specific antibodies. The original description of the epitope repertoire was based on serological cross-reactivity between HLA antigens and antibody specificities against so-called private and public determinants.  Elucidation of three-dimensional molecular structures and amino acid sequence differences between HLA antigens has made it possible to define the structural basis of HLA epitopes.  The general concept is that HLA epitopes are determined by polymorphic amino acid residues on the molecular surface.  Three-dimensional modeling of HLA antigens has revealed many clusters of polymorphic residues. Figures 1 and 2 represent molecular models of class I and class II HLA antigens and many polymorphic residues (shown in yellow) are readily seen on the top and the sides of the molecule.  In spite of this highly complex polymorphism it has become possible to determine HLA compatibility at the structural level.</p>
+                <img src="img/hla/Fig1Matching.jpg"><br><br>
+                <img src="img/hla/Fig2Matching.jpg"><br>
+                <p>The reason is that the recipient’s own HLA antigens represent the repertoire of self-epitopes to which no antibodies can be made and structurally based compatibility determines for each mismatched HLA antigen, which epitopes in corresponding sequence positions are different.  Figure 3 illustrates how a mismatched antigen, in this case HLA-B51, has a different structural epitope pattern for each of the three HLA-A, B phenotypes shown here. For certain HLA phenotypes a given mismatch has no or few mismatched epitopes and for other phenotypes, the same HLA antigen has many mismatched epitopes and is therefore, structurally highly incompatible. Altogether, the degree of structural compatibility of a donor HLA mismatch is largely determined by the HLA type of the recipient.</p>
+                <img src="img/hla/Fig3Matching.jpg"><br>
+                <p>HLAMatchmaker was originally introduced as a matching algorithm whereby each HLA antigen is viewed as a string of short linear sequences (triplets) involving polymorphic amino acid residues in antibody-accessible positions; they are considered key elements of epitopes that can induce the formation of specific antibodies.  The triplet matching concept has clinical relevance because HLA-A,B mismatched kidney transplants that are compatible at the triplet level have practically the same graft survival rates as the zero HLA-A,B antigen mismatches defined by conventional criteria.   Triplet matching has been shown to benefit platelet transfusions of refractory thrombocytopenic patients. HLAMatchmaker is also useful in the determination of acceptable mismatches for highly sensitized patients considered for kidney transplantation. </p>
+                <p>Although the triplet version of HLAMatchmaker has proven to be clinically useful, it provides an incomplete description of the structural HLA epitope repertoire. Expanded criteria must be used including longer sequences and polymorphic residues in discontinuous positions and they should consider the structural basis of antibody-antigen interactions including contact areas and binding energy, the essence of antigenicity.  Recent studies based on stereochemical modeling of crystallized complexes of antibodies with different protein antigens have led to an updated version of HLAMatchmaker. It considers the concept that antigenic proteins have functional epitopes consisting of amino acid residues that are about 3 Ångstroms apart from each other and at least one of them is non-self.  The term “eplet” is now used to describe patches of polymorphic residues within a radius of 3.0-3.5 Ångstroms.  Many eplets are identical to triplets but others have residues in discontinuous sequence positions that cluster together on the molecular surface. Serologically defined HLA determinants correspond well to eplets. The eplet version of HLAMatchmaker represents therefore a more complete repertoire of structurally defined HLA epitopes and provides a more detailed assessment of HLA compatibility.</p>                
+                <p>HLAMatchmaker determines histocompatibility at the epitope rather than antigen level in terms of the humoral alloimmune response. An epitope has two characteristics namely antigenicity, i.e. the reactivity with antibody, and immunogenicity, i.e. the ability of inducing an antibody response. Immunogenicity depends on the structural difference between an immunizing protein and the antibody responder’s homologous proteins. Certain structural differences lead to immunodominant epitopes whereas others are associated with low immunogenicity.  A major effort is underway to assess epitope immunogenicity so that clinically useful strategies can be developed on the basis of HLA mismatch permissibility for nonsensitized patients considered for transplantation.</p>
+                <p>This website has several articles about the concept of structurally based HLA matching and the determination of the triplet and eplet repertoire.  There are also many publications from the University of Pittsburgh Medical Center, Leiden University Medical Center in The Netherlands, and several other institutions on the clinical experience with HLAMatchmaker.</p>
+                <p>The primary goal of this website is to provide HLAMatchmaker programs that can be downloaded free of charge.  These Excel-based programs perform structural HLA class I and class II matching at the eplet level and analyze antibody reactivity patterns specific for structurally defined epitopes.</p>
+            </div>                
+          </div>
+        </div>
+      </section>
+
+      <section class="tabs-horizontal margin-top margin-bottom-2x" id="conferences">
+        <div class="container text-center">
+
+          <div class="row">
+            <!-- Tab panes -->
+            <div class="tab-content margin-top-2x">
+              <div class="tab-pane fade in active">
+                <div class="col-md-6 animated fadeInLeft">
+                  <img src="img/hla/hlaepitopesworkshop.jpg" alt="">
+                </div>
+
+                <div class="col-md-6 text-left animated fadeInRight">
+                    <h2 class="color">August 28-29, 2015<br>
+                    <span>HLA Epitopes Workshop</span>
+                  </h2>
+                  <span class="subtitle">Sponsored by the Hong Kong Society for Histocompatibility and Immunogenitcs Ltd.</span>
+                  <p>For more information, please contact Dr Janet Kwok at <a href=mailto:contactus@hkshi.org>contactus@hkshi.org</a></p>
+                  <a href="http://www.hkshi.org/downloads/Events/HKSHI_HLA_epitopes_workshop_2015_enrolment_form_.pdf" class="btn btn-primary" target=_blank>Sign Up</a>
+                </div>
+              </div>
+
+            <!-- Tab panes -->
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <!-- .content -->
+
+    <!-- ***** HERE IS A FOOTER ***** -->
+    <footer class="footer">
+      <div class="footer-copyright">
+        <span>Copyright Rene Duquesnoy 2015</span>
+      </div>
+    </footer>
+    <!-- .footer -->
+
+  </div>
+  <!-- .wrapper -->
+
+
+  <!-- ***** VIDEO MODAL ***** -->
+  <div class="modal videoModal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/27408483?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** SIGN UP MODAL ***** -->
+  <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-center form-dialog">
+      <div class="modal-content text-center">
+        <div class="modal-header" style="background-image: url(img/parallax-bg.jpg)">
+          Flexy
+        </div>
+        <div class="modal-body">
+          <h3>Get Started Absolutely<span> Free!</span></h3>
+          <span class="subtitle">No credit card needed</span>
+
+          <form method="post" class="contact-form form-validate3">
+
+            <div class="form-group">
+              <input class="form-control input-lg" type="text" name="name" id="name" placeholder="First Name" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <input class="form-control input-lg" type="email" name="email" placeholder="E-mail" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <input type="password" name="pass" class="form-control" placeholder="Password" required autocomplete="off">
+            </div>
+
+            <input class="btn btn-md btn-primary btn-center" type="submit" value="Sign Up">
+          </form>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+
+  <!-- ***** LOGIN MODAL ***** -->
+  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-center form-dialog">
+      <div class="modal-content text-center">
+        <div class="modal-header" style="background-image: url(img/parallax-bg.jpg)">
+          Flexy
+        </div>
+        <div class="modal-body">
+          <h3>Login and Get <span>Started</span></h3>
+          <span class="subtitle">Just fill in the form below</span>
+
+          <form method="post" class="contact-form form-validate4">
+
+            <div class="form-group">
+              <input class="form-control input-lg" type="email" name="email" placeholder="E-mail" required autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <input type="password" name="pass" class="form-control" placeholder="Password" required autocomplete="off">
+            </div>
+
+            <input class="btn btn-md btn-primary btn-center" type="submit" value="Login">
+          </form>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+
+
+
+
+  <!-- *********** ALL JS PLUGINS AND LIBRARIES ************* -->
+
+  <!-- Jquery lib -->
+  <script src="js/libs/jquery-1.11.1.min.js"></script>
+
+  <!-- Bootstrap js -->
+  <script src="js/plugins/bootstrap.min.js"></script>
+
+  <!-- Parallax -->
+  <script src="js/plugins/jquery.stellar.min.js"></script>
+
+  <!-- Page smooth scroll -->
+  <script src="js/plugins/smoothscroll.js"></script>
+
+  <!-- Lightbox plugin -->
+  <script src="js/plugins/jquery.prettyPhoto.min.js"></script>
+
+  <!-- Waypoint plugin -->
+  <script src="js/plugins/waypoints.min.js"></script>
+
+  <!-- Numbers animate plugin -->
+  <script src="js/plugins/jquery-numerator.min.js"></script>
+
+  <!-- Circle progress bar plugin -->
+  <script src="js/plugins/jquery.circliful.min.js"></script>
+
+  <!-- Parallax plugin -->
+  <script src="js/plugins/owl.carousel.min.js"></script>
+
+  <!-- Auto typing text -->
+  <script src="js/plugins/typed.min.js"></script>
+
+  <!-- Map api -->
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+  <!-- Custom checkbox & radio plugin -->
+  <script src="js/plugins/icheck.min.js"></script>
+
+  <!-- Countdown -->
+  <script src="js/plugins/jquery.countdown.min.js"></script>
+
+  <!-- Form validate plug -->
+  <script src="js/plugins/jquery.validate.min.js"></script>
+
+  <!-- Form validate plug -->
+  <script src="mailer/mailer.js"></script>
+
+
+  <!-- Custom js with all initialisation and plugin settings -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
