@@ -67,11 +67,11 @@
               </li>
             </ul>
             <ul class="nav navbar-nav collapsed-color">
-              <li class="active">
-                <a href="#" class="scroll-up">Home</a>
+              <li>
+                <a href="index.html">Home</a>
               </li>
               <li>
-                <a href="#what" class="scroll">What</a>
+                <a href="index.html#what">What</a>
               </li>
               <li>
                 <a href="publications.html">Publications</a>
@@ -80,12 +80,12 @@
                 <a href="presentations.html" >Presentations</a>
               </li>
               <li>
-                <a href="#conferences" class="scroll">Conferences</a>
+                <a href="index.html#conferences">Conferences</a>
               </li>
               <li>
                 <a href="downloads.html">Downloads</a>
               </li>
-              <li>
+              <li class="active">
                 <a href="contact.html">Contact Us</a>
               </li>
             </ul>
@@ -120,55 +120,58 @@
     <main class="content main-animation">
 
       <!-- ***** ICONS ***** -->
-      <section class="icons-block margin-top-2x" id="what">
+      <section class="team-member margin-top" id="contact">
         <div class="container">
-          <div class="text-center">
-            <h2 class="block-header">
-              <span>What</span> is structurally based HLA matchmaking?
-            </h2>
-            <div class="col-md-offset-2 col-md-8 text-justify">
-                <p>In organ transplantation, the degree of matching is generally determined by counting the number of mismatched HLA-A, B, DR antigens of the donor. It is well known that the zero-antigen mismatches have the highest success rates but why do so many mismatched transplants do so well? The answer to this question may be related to the fact that antibodies produced against HLA mismatches are significant risk factors for transplant failure.</p>
-                <p>An important consideration is that HLA antigens have multiple epitopes that can be recognized by specific antibodies. The original description of the epitope repertoire was based on serological cross-reactivity between HLA antigens and antibody specificities against so-called private and public determinants.  Elucidation of three-dimensional molecular structures and amino acid sequence differences between HLA antigens has made it possible to define the structural basis of HLA epitopes.  The general concept is that HLA epitopes are determined by polymorphic amino acid residues on the molecular surface.  Three-dimensional modeling of HLA antigens has revealed many clusters of polymorphic residues. Figures 1 and 2 represent molecular models of class I and class II HLA antigens and many polymorphic residues (shown in yellow) are readily seen on the top and the sides of the molecule.  In spite of this highly complex polymorphism it has become possible to determine HLA compatibility at the structural level.</p>
-                <img src="img/hla/Fig1Matching.jpg"><br><br>
-                <img src="img/hla/Fig2Matching.jpg"><br>
-                <p>The reason is that the recipient’s own HLA antigens represent the repertoire of self-epitopes to which no antibodies can be made and structurally based compatibility determines for each mismatched HLA antigen, which epitopes in corresponding sequence positions are different.  Figure 3 illustrates how a mismatched antigen, in this case HLA-B51, has a different structural epitope pattern for each of the three HLA-A, B phenotypes shown here. For certain HLA phenotypes a given mismatch has no or few mismatched epitopes and for other phenotypes, the same HLA antigen has many mismatched epitopes and is therefore, structurally highly incompatible. Altogether, the degree of structural compatibility of a donor HLA mismatch is largely determined by the HLA type of the recipient.</p>
-                <img src="img/hla/Fig3Matching.jpg"><br>
-                <p>HLAMatchmaker was originally introduced as a matching algorithm whereby each HLA antigen is viewed as a string of short linear sequences (triplets) involving polymorphic amino acid residues in antibody-accessible positions; they are considered key elements of epitopes that can induce the formation of specific antibodies.  The triplet matching concept has clinical relevance because HLA-A,B mismatched kidney transplants that are compatible at the triplet level have practically the same graft survival rates as the zero HLA-A,B antigen mismatches defined by conventional criteria.   Triplet matching has been shown to benefit platelet transfusions of refractory thrombocytopenic patients. HLAMatchmaker is also useful in the determination of acceptable mismatches for highly sensitized patients considered for kidney transplantation. </p>
-                <p>Although the triplet version of HLAMatchmaker has proven to be clinically useful, it provides an incomplete description of the structural HLA epitope repertoire. Expanded criteria must be used including longer sequences and polymorphic residues in discontinuous positions and they should consider the structural basis of antibody-antigen interactions including contact areas and binding energy, the essence of antigenicity.  Recent studies based on stereochemical modeling of crystallized complexes of antibodies with different protein antigens have led to an updated version of HLAMatchmaker. It considers the concept that antigenic proteins have functional epitopes consisting of amino acid residues that are about 3 Ångstroms apart from each other and at least one of them is non-self.  The term “eplet” is now used to describe patches of polymorphic residues within a radius of 3.0-3.5 Ångstroms.  Many eplets are identical to triplets but others have residues in discontinuous sequence positions that cluster together on the molecular surface. Serologically defined HLA determinants correspond well to eplets. The eplet version of HLAMatchmaker represents therefore a more complete repertoire of structurally defined HLA epitopes and provides a more detailed assessment of HLA compatibility.</p>                
-                <p>HLAMatchmaker determines histocompatibility at the epitope rather than antigen level in terms of the humoral alloimmune response. An epitope has two characteristics namely antigenicity, i.e. the reactivity with antibody, and immunogenicity, i.e. the ability of inducing an antibody response. Immunogenicity depends on the structural difference between an immunizing protein and the antibody responder’s homologous proteins. Certain structural differences lead to immunodominant epitopes whereas others are associated with low immunogenicity.  A major effort is underway to assess epitope immunogenicity so that clinically useful strategies can be developed on the basis of HLA mismatch permissibility for nonsensitized patients considered for transplantation.</p>
-                <p>This website has several articles about the concept of structurally based HLA matching and the determination of the triplet and eplet repertoire.  There are also many publications from the University of Pittsburgh Medical Center, Leiden University Medical Center in The Netherlands, and several other institutions on the clinical experience with HLAMatchmaker.</p>
-                <p>The primary goal of this website is to provide HLAMatchmaker programs that can be downloaded free of charge.  These Excel-based programs perform structural HLA class I and class II matching at the eplet level and analyze antibody reactivity patterns specific for structurally defined epitopes.</p>
-            </div>                
-          </div>
-        </div>
-      </section>
-
-      <section class="tabs-horizontal margin-top margin-bottom-2x" id="conferences">
-        <div class="container text-center">
-
           <div class="row">
-            <!-- Tab panes -->
-            <div class="tab-content margin-top-2x">
-              <div class="tab-pane fade in active">
-                <div class="col-md-6 animated fadeInLeft">
-                  <img src="img/hla/hlaepitopesworkshop.jpg" alt="">
-                </div>
-
-                <div class="col-md-6 text-left animated fadeInRight">
-                    <h2 class="color">August 28-29, 2015<br>
-                    <span>HLA Epitopes Workshop</span>
-
-                  </h2>
-                  <span class="subtitle">Sponsored by the Hong Kong Society for Histocompatibility and Immunogenitics Ltd.</span>
-                  <p>For more information, please contact Dr Janet Kwok at <a href=mailto:contactus@hkshi.org>contactus@hkshi.org</a></p>
-                  <a href="http://www.hkshi.org/downloads/Events/HKSHI_HLA_epitopes_workshop_2015_enrolment_form_.pdf" class="btn btn-primary" target=_blank>Sign Up</a>
-                </div>
+            <div class="col-md-6">
+              <div>
+                <h2>Rene 
+                  <span>Duquesnoy</span>
+                </h2>
+                <span class="subtitle">Professor Emeritus of Pathology</span>
               </div>
 
-            <!-- Tab panes -->
+              <p>Rene Duquesnoy was born in The Netherlands, where he obtained an Ingenieur degree in chemical engineering from the Technological University of Delft. He received a Ph.D. degree in Pathology from the University of Tennessee in Memphis, and did a post-doctoral fellowship with Robert A. Good at the University of Minnesota. After his affiliation with the Medical College of Wisconsin and The Blood Center of Wisconsin in 1984, he became a tenured Professor of Pathology, with joint appointments in Immunology and Surgery at the University of Pittsburgh Medical Center. Until 2006, he was a director of UPMC tissue typing laboratory where he served later on as a clinical consultant. Since 2009, he is Professor Emeritus of Pathology.</p>
+              <p>Rene’s research deals with HLA and transplantation immunology. His curriculum vitae list 390 publications and more than 500 scientific presentations at national and international meetings. Milestones include cross-reactive HLA matching in platelet transfusions, the discovery of the MB system (now called HLA-DQ), alloreactivity of graft-infiltrating T-cells, the dualistic effect of HLA in liver transplantation, the role of stress proteins in transplant immunity and HLA antibody analysis of highly sensitized patients. His current studies deal with a structurally based histocompatibility algorithm called HLAMatchmaker, the establishment of an international registry of <a href="http://www.epregistry.com.br" target=_blank>HLA epitopes</a> and addressing the concept of HLA epitope matching in organ transplantation.</p>
+
+              <hr style="border-color:#d7d7d7">
+
+              <ul class="list-unstyled">
+                  <li>1951-1956: Zandvliet Lyceum, The Hague, The Netherlands <br> HBS-B Diploma</li>
+                  <li>1956-1963: Technological University, Delft, The Netherlands <br> Ingenieur Degree in Chemical Engineering</li>
+                  <li>1963-1967: University of Tennessee, Medical Units, Memphis <br> Doctor of Philosophy in Experimental Pathology</li>
+                  <li>1968-1970: University of Minnesota, Minneapolis, Minnesota <br> Post-Doctoral Fellowship in Immunology</li>
+              </ul>
+
+              <hr style="border-color:#d7d7d7">
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="contact-info">
+                    <p class="contact-title">E-mail:</p>
+                    <a href="mailto:duquesnoyr@upmc.edu">duquesnoyr@upmc.edu</a>
+                  </div>
+                  <div class="contact-info">
+                    <p class="contact-title">Mobile number:</p>
+                    +1 412 860 8083
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="contact-info">
+                    <p class="contact-title">Address:</p>
+                    146 N Bellefield Ave, #1004<br>Pittsburgh, PA, 15213                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="img/hla/rene.jpg" alt="">
+            </div>
           </div>
         </div>
       </section>
+
+
     </main>
     <!-- .content -->
 
