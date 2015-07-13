@@ -127,26 +127,150 @@
             <h2 class="block-header">
               <span>Lectures</span>
             </h2>
-            <div >
+            <div>
+                <center><h2>Matching for Antibody-Defined HLA Epitopes</h2>
+                    <h2>March 5- 6, 2015</h2>
+                    <h2>Sydney, Australia</h2>
+                    <br>
+                </center>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>HLA epitope based matching is a challenging new concept in compatibility testing for transplantation and transfusion. This conference addressed basic concepts of HLA epitopes including antigenicity and immunogenicity as well as the interpretation of antibody reactivity patterns with HLA panels in different assays.  There was a focus on the determination of HLA epitope specificities of serum antibodies and its relevance in assessing HLA mismatch acceptability for sensitized patients and a better understanding of humoral immune responses to HLA class I, class II and MICA mismatches.  </p>
+                <p>Rene Duquesnoy gave the following six lectures and PowerPoint presentations are available:</p>
+            </div>
+            <div>
                 <table class="table">
                     <tr>
-                        <td><a href="/pdfs/.pdf" target=_blank><img src="/img/pdf.gif" width="18px" /></a></td>
-                        <td align="left"></td>
+                        <td><a href="/ppt/.ppt" target=_blank><img src="/img/ppt.png" width="16px" /></a></td>
+                        <td align="left">1. Basic concepts of HLA epitope structure.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/ppt/.ppt" target=_blank><img src="/img/ppt.png" width="16px" /></a></td>
+                        <td align="left">2. kkAntigenicity of HLA-ABC epitopes</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/ppt/.ppt" target=_blank><img src="/img/ppt.png" width="16px" /></a></td>
+                        <td align="left">3. Antigenicity of HLA class II and MICA epitopes</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/ppt/.ppt" target=_blank><img src="/img/ppt.png" width="16px" /></a></td>
+                        <td align="left">4. International Registry of HLA Epitopes and HLAMatchmaker analysis</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/ppt/.ppt" target=_blank><img src="/img/ppt.png" width="16px" /></a></td>
+                        <td align="left">5. HLA epitope matching in clinical transplantation</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/ppt/.ppt" target=_blank><img src="/img/ppt.png" width="16px" /></a></td>
+                        <td align="left">6. HLA epitope immunogenicity and the nonself-self paradigm</td>
                     </tr>
                 </table>
             </div>
+        </div>
+        <div class="text-center">
             <h2 class="block-header">
-              <span>Tutorials</span>
+                <span>Tutorial (June 2015)</span>
             </h2>
-            <div >
-                <table class="table">
-                    <tr>
-                        <td><a href="/pdfs/.pdf" target=_blank><img src="/img/pdf.gif" width="18px" /></a></td>
-                        <td align="left"></td>
-                    </tr>
-                </table>
+            <div>
+                <center><h2>HLAMatchmaker ABC and DRDQDP Antibody Analysis Programs</h2>
+                    <br>
+                </center>
             </div>
-          </div>
+        </div>
+        <div>
+            <h3>Introduction</h3>
+            <p>HLAMatchmaker is an algorithm to predict HLA epitopes by molecular structural modeling and amino acid sequence comparisons between HLA alleles.  It considers each HLA allele as a series of small configurations of polymorphic residues referred to as eplets as essential components of HLA epitopes. The website-based International Registry of HLA Epitopes (<a href="http://www.epregistry.com.br" target=_blank>http://www.epregistry.com.br</a>) describes the repertoires of HLA-ABC, -DRDQDP and -MICA eplets. An important question is which eplets correspond to actual epitopes specifically recognized by HLA antibodies.</p> 
+            <p>Recent publications describe antibody-verified epitopes recorded so far in the HLA Epitope Registry. All of them correspond to eplets and there are two patterns.  First, a specific antibody reacts with all alleles carrying a given eplet whereas the remaining alleles in the panel are non-reactive. In these cases, an eplet describes the epitope specifically recognized by antibody. Second, an epitope is defined by the combination of an eplet and another polymorphic residue configuration (eplet) uniquely shared between all antibody-reactive alleles. Such epitopes are described by so-called eplet pairs. The repertoires of antibody-verified epitopes must be considered incomplete.</p>
+            <p>This new Excel program has been designed to analyze HLA antibody reactivity patterns with single allele panels. Reactive alleles carry epitopes which are studied in two steps. First, we determine the presence of antibody-verified epitopes (eplets and eplet pairs) that are mismatched for the antibody producer. Second, we determine if other reactive alleles in the panel have additional epitopes which have not (yet) been antibody-verified in the HLA Epitope Registry.  The updated antibody analysis version has features that permit a quick assessment of epitope specificities and the interpretation of allele mismatch acceptability. </p>
+            <h3>HLAMatchmaker-based epitope analysis of HLA-ABC antibodies <a href="/xlsx/abverABCdemo.xlsx" target=_blank><img src="/img/excel.png" width="16px" /></a></h3>
+            <p>This Excel file has 14 sheets to show how to perform this epitope analysis.</p>
+            <table class="table">
+                <tr>
+                    <td><u>1Panel</u></td>
+                    <td align="left">This sheet has five columns to describe the composition of the single allele kit. There are 100 rows to enter the panel information.  The actual program has sheets describing lot numbers of One Lambda and Gen-Probe kits, copy the selected kit and paste it on the Panel sheet.  The latest lots can be added to the One Lambda and Gen-Probe sheets.</td>
+                </tr>
+                <tr>
+                    <td><u>2Panel</u></td>
+                    <td align="left">This sheet shows the epitopes after pasting the HLA information of OL lot xyz; columns C, D and E show bead numbers, QC information and the list of alleles. The program automatically generates the repertoires of antibody-verified eplets (columns F-DA), antibody-verified pairs (DC-GX) and “other” eplets recorded in the Registry (GY-KT). Please note that updated versions of the antibody analysis program will include newly antibody-verified epitopes and they will be posted on the HLAMatchmaker website</td>
+                </tr>
+                <tr>
+                    <td><u>3Enter</u></td>
+                    <td align="left">This is a blank sheet on which you can enter information about patient name, serum date, HLA types of antibody producer and immunizer and MFI values.  Since the panel composition has already been recorded, proceed to the next sheet.</td>
+                </tr>
+                <tr>
+                    <td><u>4Enter</u></td>
+                    <td align="left">Here you see the HLA information of the panel and columns L, M and N show the antibody-verified eplets, the antibody-verified pairs and the “other” eplets. We must of course know which ones are mismatched for the antibody producer.</td>
+                </tr>
+                <tr>
+                    <td><u>5HLAinfo</u></td>
+                    <td align="left">This sheet has four examples of Luminex data with class I antibodies. All of them have HLA types of antibody producer and immunizer and the cPRA values are very high. Let’s select case #219.  For training purposes, you can try out the other cases.</td>
+                </tr>
+                <tr>
+                    <td><u>6EnterpHLA</u></td>
+                    <td align="left">After recording the HLA type of the antibody producer (this must be done at the 4-digit high-resolution level), the program automatically determines which epitopes in columns L, M and N are mismatched. Now enter the MFI values for the Luminex panel.</td>
+                </tr>
+                <tr>
+                    <td><u>7MFIcsv</u></td>
+                    <td align="left">The easiest way for entering the MFI values is to go to the csv files of the Luminex software programs (you may need some instructions from the manufacturer). Row 22 of this sheet has the trimmed mean values for case #217.  Copy the horizontally located values and use the paste special transpose command (the shortcut click: alt E, S, E) to enter the MFI values in column J starting on row 12.</td>
+                </tr>
+                <tr>
+                    <td><u>8EnterMFI</u></td>
+                    <td align="left">The MFI values can be seen but the epitopes have disappeared! The reason is the Cell J10 which is used to enter the cut-off value has an “x”. You can enter any number but we believe that a proper cut-off value must be based on the MFI values for the self-alleles of the antibody producer; such values reflect true non-reactivity.   Any other allele in the SAB panel with a MFI more than three standard deviations above the mean value with self can be statistically considered as being significantly higher.  Accordingly we can determine the cut-off value by rounding to the nearest 100 above.<br>
+                        You can see in column G that each allele of the antibody producer of Case #219 had an extremely low MFI value and we determined a cut-off value of 100.</td>
+                </tr>
+                <tr>
+                    <td><u>9Enter Cut-off</u></td>
+                    <td align="left">After entering the cut-off value, the epitopes reappear on the sheet and column I has a “NEG” annotation for each allele that has an MFI below the cut-off value, in this case 100.  Moreover, the program removes all the epitopes expressed by the negative alleles from the entire panel. The reactive alleles show the remaining epitopes. You will see that most of them have small numbers of antibody-verified epitopes.<br> 
+                        We must raise the question which of these epitopes would be specifically recognized by serum antibodies.  Information about the immunizing event will offer an answer. Case #217 was a post-pregnancy serum and the paternal haplotype of the child was recorded on the entry sheet.</td>
+                </tr>
+                <tr>
+                    <td><u>10Enter ImHLA</u></td>
+                    <td align="left">Row 5 shows the immunizer’s alleles. For each of them, columns L, O and R show the mismatched epitopes in the Abver Epl, AbverPrs and OtherEps groups whereas columns K, N and Q show epitopes shared with reactive alleles. Column H indicates which allele in the panel belongs to the immunizer so you can see which ones had induced antibodies.  The last step of this analysis is to determine which epitopes of the immunizer are specifically recognized by the antibodies. This requires a distinction between “immunizer-specific” and “third-party” epitopes.</td>
+                </tr>
+                <tr>
+                    <td><u>11SortBlank</u></td>
+                    <td align="left">This is a protected blank sheet on which you cannot enter any data. Instead, the program determines which epitopes are immunizer or third-party specific and copies the HLA types, MFI values, etc. from the data entry sheet.</td>
+                </tr>
+                <tr>
+                    <td><u>12SortBefore</u></td>
+                    <td align="left">This sheet shows the data for #217.  Columns K, L and M have the immunizer-specific epitopes and columns N, O and P list the third-party epitopes.   You may see that most reactive alleles have one or few antibody-verified eplets or pairs but you have to scroll up and down to see which ones are involved. A dedicated sort command can be used for better visualization of the data.<br>
+                        Highlight Rows 12-110 and under the Data tab click on the Sort Command which uses a certain sequence within the various columns. However, this click leads to a signal “Protected Sheet” and it necessary to first “Unprotect” the sheet. Under the Review tab, click on Unprotect, no password is necessary. Then proceed to the Sort command.  Afterwards, protect the sheet again for safety reasons. (I hope to bypass the protect-unprotect step in the near future)</td>
+                </tr>
+                <tr>
+                    <td><u>13SortAfter</u></td>
+                    <td align="left">The sorted data for case #217 show that the antibodies react with a limited repertoire of immunizer epitopes.  The immunizing B*07:02 has 65QIA,70IAQ,163EW and 180E and you may note that the 163EW carrying HLA-C alleles have very low MFI values suggesting that the 163EW-defined epitope needs another configuration shared between HLA-B and A*66:02 (note that A*66:01 has a much lower MFI value). The immunizing A*03:01 has 161D and one or two epitopes that correspond with antibody-verified pairs. Several weakly reacting alleles share 45EE with the immunizing B*07:02, this epitope has not (yet) been antibody-verified. You may also note that a group of HLA-B alleles with very low MFI values share a third-party 44RT epitope.  Although the clinical significance of low MFI values might be considered questionable it is interesting to note that some of them may reflect weakly reacting epitope-specific antibodies. <br>
+                        The major purpose of serum analysis for specific antibodies is the determination mismatch acceptability of donor alleles.  This HLAMatchmaker program makes this determination</td>
+                </tr>
+                <tr>
+                    <td><u>14AccMm</u></td>
+                    <td align="left">This sheet shows the information about mismatched epitopes on class I alleles including many that are not in single allele panels.  Columns B-G list the immunizer-specific alleles whereas columns H-M list all epitopes shared with reactive alleles.  Row 4 has a filter command to select alleles with certain numbers of mismatched epitopes.  Depending on the determination of the cut-off value in the Luminex test and the interpretation which epitope is clinically important, the program can readily determine which alleles are acceptable mismatches.</td>
+                </tr>
+            </table>
+            <p>Now try out the analysis of the other three cases listed in this demo. Let us know if you have any questions and suggestions.</p>
+        </div>
+        <div>
+            <h3>HLAMatchmaker-based epitope analysis of HLA-ABC antibodies <a href="/xlsx/abverDRDQDPdemo.xlsx" target=_blank><img src="/img/excel.png" width="16px" /></a></h3>
+            <p>The new version applies the same approach as the epitope analysis of HLA-ABC antibodies. This Excel file has 8 sheets that show epitope analysis results for antibodies reacting with three groups of class II alleles: DRB1/3/4/5, DQA/DQB and DPA/DPB.</p>
+            <table class="table">
+                <tr>
+                    <td><u>Panel</u></td>
+                    <td align="left">This sheet shows the composition of a panel of DRB alleles, DQA-DQB heterodimers and DPA-DPB heterodimers.  Each allele has a list of epitopes classified as antibody-verified eplets, antibody-verified pairs and other eplets.  The sheet has 250 columns and it should be noted that no antibody-verified pairs are listed for DP and DQ; they will be included after reviewing studies providing experimental evidence for such epitopes. </td>
+                </tr>
+                <tr>
+                    <td><u>Enter</u></td>
+                    <td align="left">This sheet shows the panel, the HLA types of antibody producer and the MFI values that have been entered. The program calculates the mean MFI values for self DRB1/3/4/5, DQB and DQA and the mean+3SD can be used to establish the cut-off MFI value. The MFI value for self DRB is probably the best choice. Some DQ heterodimers may give a high MFI although one of the DQ chains is self (see prep 36: DQB1*06:01 complex with self DQA1*01:03, row 53).  For this case the cut-off values was determined at 700 and the each reactive allele shows a list of epitopes that are mismatched for the antibody producer. This sheet has lots of information but the program has three sheets that distinguish immunizer-specific and third-party epitopes in each class II group: DRB1/3/4/5, DQB-DQA and DPB-DPA.</td>
+                </tr>
+                <tr>
+                    <td><u>SortDR, SortDQ, SortDP</u></td>
+                    <td align="left">These sheets shows reactive alleles sorted by immunizer-specific and third-party epitopes in the order of antibody-verified eplets, antibody-verified pairs(no data) and “other” eplets recorded in the Epitope Registry..  These data provide information that permit the determination of mismatch acceptability of class II alleles.</td>
+                </tr>
+                <tr>
+                    <td><u>AcMmDR, AcMmDQ, AcMmDP</u></td>
+                    <td align="left">These sheets show the epitope mismatch information on class II alleles including many that are not in single allele panels.  Columns B-E list the immunizer-specific alleles whereas columns F-I list all epitopes shared with reactive alleles in the panel.  There is no information about antibody-verified pairs. Row 4 has a filter command to select alleles with certain numbers of mismatched epitopes.</td>
+                </tr>
+            </table>
         </div>
       </section>
 
