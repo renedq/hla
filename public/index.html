@@ -27,8 +27,10 @@
 
   <!--Modernizr extention-->
   <script src="js/libs/detectizr.min.js"></script>
-  <!--<script src="/vendor.js"></script>
-  <script src="/app.js"></script>-->
+  <script src="/vendor.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="352143239627-9d38hjeu01jdp2vin9icvj5km8i4p134.apps.googleusercontent.com">
+  <script src="/app.js"></script>
 </head>
 
 <body class="parallax">
@@ -63,7 +65,7 @@
                 <a href="" class="btn btn-primary-outline" data-toggle="modal" data-target="#signUp">Sign Up</a>
               </li>
               <li>
-                <a href="" data-toggle="modal" data-target="#login">Login</a>
+                <div class="g-signin2" data-onsuccess="googleSignIn"></div>
               </li>
             </ul>
             <ul class="nav navbar-nav collapsed-color">
