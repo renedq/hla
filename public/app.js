@@ -23,3 +23,9 @@ function googleSignIn(googleUser) {
   });
   //hlamatchmaker.showView(window.location.hash);
 }
+
+function getURL(filename){
+    var s3 = new AWS.S3;
+    var params = {Bucket: 'downloads.epitopes.net', Key: filename};
+    return s3.getSignedUrl('getObject', params);
+}
