@@ -20,6 +20,7 @@ function googleSignIn(googleUser) {
     });
     var dynamodb = new AWS.DynamoDB();
     dynamodb.putItem({Item: {email: {S: hlamatchmaker.profile.getEmail()}, name: {S: hlamatchmaker.profile.getName()}, last_login: {S: Date().toString()}},  TableName: "hla"}, function() {  });
+    $('#me').attr('src', hlamatchmaker.profile.getImageUrl());
   });
 }
 
