@@ -14,14 +14,12 @@ function googleSignIn(googleUser) {
     var params = {
       Bucket: 'downloads.epitopes.net' /* required */
     };
-    var s3 = new AWS.S3();
-    s3.listObjects(params, function(err, data) {
-      if (err) console.log(err, err.stack); // an error occurred
-    });
     $(".downloads_url").each( function (index, value) {
       var url = getURL($(value).attr('id') + ".xlsb"); 
       $(value).attr('href', url); 
     });
+    var dynamodb = new AWS.DynamoDB();
+    dynamodb.putItem({Item: {email: {S: hlamatchmaker.profile.getEmail()}, name: {S: hlamatchmaker.profile.getName()}, last_login: {S: Date().toString()}},  TableName: "hla"}, function() {  });
   });
 }
 
