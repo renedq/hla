@@ -29,6 +29,8 @@
   <script src="js/libs/detectizr.min.js"></script>
   <script src="/vendor.js"></script>
   <script src="/app.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="352143239627-9d38hjeu01jdp2vin9icvj5km8i4p134.apps.googleusercontent.com">
 </head>
 
 <body class="parallax">
@@ -62,7 +64,6 @@
                 <div class="g-signin2" data-onsuccess="googleSignIn"></div>
               </li>
             </ul>
-
             <ul class="nav navbar-nav collapsed-color">
               <li>
                 <a href="index.html">Home</a>
@@ -107,36 +108,36 @@
                   <img src="img/hla/downloads/4.png">
               </center>
             <h2 class="block-header">
-              <br><span>Welcome to the Program Download Section</span>
+              <br><span>Welcome to the Program Download Section</span><br>
             </h2>
             <div class="col-md-offset-2 col-md-8 text-justify">
                 <p>All programs are in Microsoft Excel format and they have extensively been updated from previous versions.  All epitopes are now annotated according to the system in the International HLA Epitope Registry.  The HLAMatchmaker programs consider two groups of epitopes (1) those verified experimentally with informative HLA antibodies and (2) eplets that are theoretically predicted as potential epitopes but we do not know yet which ones become antibody-verified. All programs on this website are listed as version 01 and we expect that future versions will include have additional epitopes that have been antibody-verified. </p>
                 <p>There are two types of HLAMatchmaker programs: epitope specificity analysis of HLA antibodies and HLA matching at the epitope level.  Three programs address the antibody analysis for HLA-ABC, HLA-DRDQDP and MICA epitopes and they are designed for reactivity with single allele panels. These Excel programs are more user-friendly but they require lots of megabytes. The Education section has a step-by step tutorial for antibody analysis. Data entry consists of recording the alleles of the panel, the antibody producer and if possible, the immunizer as well as entering the MFI values. The program calculates the average MFI for self alleles and you can enter any cut-off value. The program then identifies the epitopes on the reactive alleles and separate sheets have a sort command to distinguish between immunizer-specific and third-party epitopes.  Another sheet has long list of alleles with epitopes shared with reactive alleles in the panel; this information is useful for the determination of an epitope-based mismatch acceptability.</p>
                 <p>Two programs are for HLA matching at the epitope level. They use reduced eplet repertoires that avoid similar overlapping sequences (see Instructions) and they can be used for a single donor-recipient combination or a meta-analysis of up to 1000 combinations.  The data provide quantitative (eplet loads) and qualitative information about antibody-verified and theoretically predicted epitopes. </p>
-                <p><u>To download a program, you must be connected via google authentication (<a href="index.html">here</a>)</u></p>
+                <p><u>To download a program, you must be signed in to google.</u></p>
                 <table class="table" id="downloads_table">
                     <tr> 
-                        <td><a href="www.google.com" target=_blank id="1ABCanalysisVs1"><img src="/img/excel.png" width="18px" /></a></td>
+                        <td><a href="www.google.com" target=_blank id="1ABCanalysisVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
                         <td align="left">HLA-ABC antibody analysis (v01)</td>
                     </tr>
                     <tr> 
-                        <td><a href="www.google.com" target=_blank id="2DRDQDPanalysisVs1"><img src="/img/excel.png" width="18px" /></a></td>
+                        <td><a href="www.google.com" target=_blank id="2DRDQDPanalysisVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
                         <td align="left">HLA-DRDQDP antibody analysis (v01)</td>
                     </tr>
                     <tr> 
-                        <td><a href="www.google.com" target=_blank id="3MICAanalysisVs1"><img src="/img/excel.png" width="18px" /></a></td>
+                        <td><a href="www.google.com" target=_blank id="3MICAanalysisVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
                         <td align="left">MICA antibody analysis (v01)</td>
                     </tr>
                     <tr> 
-                        <td><a href="www.google.com" target=_blank id="4ABCEpletMatchingVs1"><img src="/img/excel.png" width="18px" /></a></td>
+                        <td><a href="www.google.com" target=_blank id="4ABCEpletMatchingVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
                         <td align="left">HLA-ABC matching for up to 1000 cases (v01)</td>
                     </tr>
                     <tr> 
-                        <td><a href="www.google.com" target=_blank id="5DRDQDPMatchingVs1"><img src="/img/excel.png" width="18px" /></a></td>
+                        <td><a href="www.google.com" target=_blank id="5DRDQDPMatchingVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
                         <td align="left">HLA-DRDQDP matching for up to 1000 cases (v01)</td>
                     </tr>
                     <tr> 
-                        <td><a href="www.google.com" target=_blank id="6ABCDRB1DQBconvVs1"><img src="/img/excel.png" width="18px" /></a></td>
+                        <td><a href="www.google.com" target=_blank id="6ABCDRB1DQBconvVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
                         <td align="left">Four-digit allele converter program (v01)</td>
                     </tr>
                 </table>
@@ -160,19 +161,6 @@
   </div>
   <!-- .wrapper -->
 
-
-  <!-- ***** VIDEO MODAL ***** -->
-  <div class="modal videoModal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/27408483?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- ***** SIGN UP MODAL ***** -->
   <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">

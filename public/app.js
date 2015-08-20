@@ -20,7 +20,6 @@ function googleSignIn(googleUser) {
         else     console.log(data);           // successful response
     });
   });
-  //hlamatchmaker.showView(window.location.hash);
 }
 
 function getURL(filename){
