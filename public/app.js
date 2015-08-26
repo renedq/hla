@@ -21,6 +21,12 @@ function googleSignIn(googleUser) {
     var dynamodb = new AWS.DynamoDB();
     dynamodb.putItem({Item: {email: {S: hlamatchmaker.profile.getEmail()}, name: {S: hlamatchmaker.profile.getName()}, last_login: {S: Date().toString()}},  TableName: "hla"}, function() {  });
     $('#me').attr('src', hlamatchmaker.profile.getImageUrl());
+    $('#login').empty();
+    $('#login').append(
+        '<div style="height:36px;width:120px;" class="abcRioButton abcRioButtonLightBlue">' + 
+            '<div style="margin:6px 0 0 6px;" class="abcRioButtonIcon"><img src="img/hla/g.png"></div>' + 
+            '<span style="font-size:13px;line-height:34px;" class=abcRioButtonContents"><a href="https://accounts.google.com/logout">Logout</a></span>' + 
+        '</div>');
   });
 }
 
