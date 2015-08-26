@@ -25,7 +25,7 @@ function googleSignIn(googleUser) {
     $('#login').append(
         '<div style="height:36px;width:120px;" class="abcRioButton abcRioButtonLightBlue">' + 
             '<div style="margin:6px 0 0 6px;" class="abcRioButtonIcon"><img src="img/hla/g.png"></div>' + 
-            '<span style="font-size:13px;line-height:34px;" class=abcRioButtonContents"><a href="https://accounts.google.com/logout">Logout</a></span>' + 
+            '<span style="font-size:13px;line-height:34px;" class=abcRioButtonContents"><a href="https://accounts.google.com/logout" target=_blank>Logout</a></span>' + 
         '</div>');
   });
 }
