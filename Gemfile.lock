@@ -63,8 +63,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (>= 1.11.2)
   guard
   guard-livereload
   guard-rack (= 2.1.1)
   rack-livereload
   rack-rewrite
+
+BUNDLED WITH
+   2.0.2
