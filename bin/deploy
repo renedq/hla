@@ -79,7 +79,7 @@ source $HOME/.s3keys
 cd $root_dir/public
 
 echo "Deploying to $bucket..."
-for file in `find * -mtime 0 -type f`; do
+for file in `find * -mtime -7 -type f`; do
   putS3 "$file"
 done
 echo "...Done!"
