@@ -29,8 +29,6 @@
   <script src="js/libs/detectizr.min.js"></script>
   <script src="/vendor.js"></script>
   <script src="/app.js"></script>
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
-  <meta name="google-signin-client_id" content="352143239627-9d38hjeu01jdp2vin9icvj5km8i4p134.apps.googleusercontent.com">
 </head>
 
 <body class="parallax">
@@ -54,14 +52,6 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbarMain">
-            <ul class="nav navbar-nav navbar-right">
-    	      <li>
-                <img id="me" width='36' src="/img/hla/noimg.gif">
-              </li>
-              <li id="login">
-                <div class="g-signin2" data-onsuccess="googleSignIn"></div>
-              </li>
-            </ul>
             <ul class="nav navbar-nav collapsed-color">
               <li>
                 <a href="index.html">Home</a>
@@ -106,84 +96,47 @@
                   <img src="img/hla/downloads/4.png">
               </center>
             <h2 class="block-header">
-              <br><span>Welcome to the Program Download Section<br>November 2019 Update</span><br>
+              <br><span>Welcome to the Program Download Section</span><br>
             </h2>
+						<h4>July 2020 Update</h4>
             <div class="col-md-offset-2 col-md-8 text-justify">
-              <p>All HLAMatchmaker programs are in Microsoft Excel format and they consider two groups of epitopes (1) eplets verified experimentally with informative HLA antibodies either by themselves or paired with other residue configurations and (2) the remaining eplets are theoretical considerations, and we do not know which ones will be antibody-verified. The International <a href="http://www.epregistry.com.br">HLA Epitope Registry</a> has lists of such eplets together with so-called ElliPro scores as possible indicators of immunogenicity</p>
-              <p>We have recently developed Version 3.0 HLAMatchmaker antibody analysis programs; they include updated antibody-verified eplet repertoires and there are additional features to analyze complex reactivity patterns..</p>
-              <p><u>To download a program, you must be signed in to google.</u></p>
+							<p>All HLAMatchmaker programs are in Microsoft Excel format and they consider two groups of epitopes (1) eplets verified experimentally with informative HLA antibodies and (2) the remaining eplets are theoretical considerations, and we do not know which ones will be antibody-verified. The International HLA Epitope Registry <a href=https://epregistry.com.br>https://epregistry.com.br</a> has HLA class I and class II eplet lists together with other types of information.</p>
+							<p>All ABC and DRDQDP HLAMatchmaker programs have been updated</p>
+							<p>They have updated repertoires of antibody-verified eplets, more alleles and check functions about recording appropriate alleles.</a>
               <p>Downloads have been optimized for <a href='https://www.google.com/chrome/browser/desktop/index.html' target=_blank>Google Chrome</a></p>
-							<p>The following Excel programs can be downloaded:</p>
-                <table class="table" id="downloads_table">
-                    <tr>
-                        <td><a href="http://www.google.com" target=_blank id="ABC_Analysis_with_ACC_MM_v3.1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">ABC antibody analysis with Acceptable Mismatch Determinations v3.1 (62 MB)</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="ABC_Analysis_short_v3.1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">ABC antibody analysis, short version: just Eplet Analysis v3.1 (2 MB)</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="DRDQDP_analysis_v3" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">DRDQDP Analysis and Mismatch Acceptability v3.0 (21 MB)</td>
-                    </tr>
-                </table>
-								<p>The following tutorials for version 3.0 can be downloaded:</p>
-                <table class="table" id="tutorials_table">
-                    <tr>
-                        <td><a href="docx/ABC_ab_analysis_tutorial_v3.docx" target=_blank><img src="/img/word.jpg" width="18px" /></a></td>
-                        <td align="left">ABC AB Analysis Tutorial v3.0 </td>
-                    </tr>
-                    <tr>
-                        <td><a href="docx/ABC_ab_analysis_demo_v3.xlsx" target=_blank><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">ABC AB Analysis Demo v3.0 </td>
-                    </tr>
-                    <tr>
-                        <td><a href="docx/DRDQDP_analysis_tutorial_v3.docx" target=_blank><img src="/img/word.jpg" width="18px" /></a></td>
-                        <td align="left">DRDQDP Analysis Tutorial v3.0 </td>
-                    </tr>
-                    <tr>
-                        <td><a href="docx/DRDQDP_analysis_demo_v3.xlsx" target=_blank><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">DRDQDP Analysis Demo v3.0 </td>
-                    </tr>
-                </table>
-								<p>Two programs are for HLA matching at the eplet level. They use modified eplet repertoires that avoid similar overlapping sequences and they can be used for a single donor-recipient combination or a meta-analysis of up to 1000 combinations.  The data provide quantitative (eplet loads) and qualitative information about antibody-verified and theoretically predicted epitopes.  These programs will be updated soon.</p>
-								<p>Other programs available for downloading:</p>
-                <table class="table" id="downloads_table">
-                    <tr>
-                        <td><a href="http://www.google.com" target=_blank id="1ABCanalysisVs02prototype" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">HLA-ABC antibody analysis v2 (discontinued)</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="2DRDQDPabanalysisVs2.1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">HLA-DRDQDP antibody analysis v2 (discontinued)</td>
-                    </tr>
-                    <tr>
-                        <td><a href="docx/vs02HLAMatchmakerabanalysisManual.docx" target=_blank><img src="/img/word.jpg" width="18px" /></a></td>
-                        <td align="left">HLA Matchmaker AB Analysis Manual v2</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="3MICAanalysisVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">MICA Antibody Analysis v1</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="4ABCEpletMatchingVs02prototype" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">HLA-ABC matching for up to 1000 cases v2</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="5DRDQDPMatchingVs2.2" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">HLA-DRDQDP matching for up to 1000 cases v2</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="http://www.google.com" target=_blank id="6ABCDRB1DQBconverterVs1" class="downloads_url"><img src="/img/excel.png" width="18px" /></a></td>
-                        <td align="left">Four-digit allele converter program v1</td>
-                    </tr>
-                    <tr> 
-                        <td><a href="/pdfs/manuals/HLAMatchmakerManualVs02.pdf" target=_blank><img src="/img/word.jpg" width="18px" /></a></td>
-                        <td align="left">HLA Matchmaker Manual for Version 02 (May 2016)</td>
-                    </tr>
-                </table>
-								<h3>We welcome your comments and suggestions about these programs.</h3>
+							<p>The following can be downloaded for HLA ABC:</p>
+							<ol>
+								<li><img src="/img/excel.png" width="18px" /> <a href="https://s3.amazonaws.com/downloads.epitopes.net/ABC_Antibody_Analysis_3.1.xlsb">ABC Antibody Analysis Program V3.1</a> (61 MB).  Identification of eplet-associated antibody specificities and determination of eplet-based mismatched allele acceptability.</li>
+								<ul>
+									<li><img src="/img/word.jpg" width="18px" /> <a href="https://s3-us-west-2.amazonaws.com/education.epitopes.net/Basic_Tutorial_ABC_Antibody_Analysis_3.1.docx">Basic Tutorial ABC Antibody Analysis V3.1</a></li>
+									<li><img src="/img/excel.png" width="18px" /> <a href="https://s3-us-west-2.amazonaws.com/education.epitopes.net/Basic_Demo_ABC_Antibody_Analysis.xlsx">Basic Demo ABC Antibody Analysis V3.1</a></li>
+								</ul>
+								<li><img src="/img/excel.png" width="18px" /> <a href="https://s3.amazonaws.com/downloads.epitopes.net/ABC_Eplet_Matching_3.1.xlsb">ABC Eplet Matching Program V3.1</a> (28MB) Determinations of eplet loads, eplet listings and frequencies for up to 1000 donor-recipient combinations.</li>
+								<ul>
+									<li><img src="/img/word.jpg" width="18px" /> <a href="https://s3-us-west-2.amazonaws.com/education.epitopes.net/Tutorial_ABC_Eplet_Matching_3.1.docx">Tutorial ABC Eplet Matching V3.1</a></li>
+								</ul>
+							</ol>
+							<p>The following can be downloaded for HLA-DRDQDP:</p>
+							<ol>
+								<li><img src="/img/excel.png" width="18px" /> <a href="https://s3.amazonaws.com/downloads.epitopes.net/DRDQDP_Antibody_Analysis_3.1.xlsb">DRDQDP Antibody Analysis Program V3.1</a> (24 MB) Determination of antibody specificities against single locus and interlocus class II eplets and assessment of eplet-based mismatched allele acceptability.</li>
+								<ul>
+									<li><img src="/img/word.jpg" width="18px" /> <a href="https://s3-us-west-2.amazonaws.com/education.epitopes.net/Basic_Tutorial_DRDQDP_Antibody_Analysis_3.1.docx">Basic Tutorial DRDQDP Antibody Analysis V3.1</a></li>
+									<li><img src="/img/excel.png" width="18px" /> <a href="https://s3-us-west-2.amazonaws.com/education.epitopes.net/Basic_Demo_DRDQDP_Antibody_Analysis_3.1.xlsx">Basic Demo DRDQDP Antibody Analysis V3.1</a></li>
+								</ul>
+								<li><img src="/img/excel.png" width="18px" /> <a href="https://s3.amazonaws.com/downloads.epitopes.net/DRDQDP_Eplet_Matching_3.1.xlsb">DRDQDP Eplet Matching Program V3.1</a> (31MB) Determinations of eplet loads, eplet listings and frequencies for up to 1000 donor-recipient combinations.</li>
+								<ul>
+									<li><img src="/img/word.jpg" width="18px" /> <a href="https://s3-us-west-2.amazonaws.com/education.epitopes.net/Tutorial_DRDQDP_Matching_3.1.docx">Tutorial DRDQDP Eplet Matching V3.1</a></li>
+								</ul>
+							</ol>
+								<p>The following programs have been discontinued but are available upon request:</p>
+								<ul>
+									<li>HLA ABC Antibody Analysis V2</li>
+									<li>HLA Matchmaker AB Analysis Manual V2</li>
+									<li>HLA DRDQDP Antibody Analysis V2</li>
+									<li>HLA ABC Matching for up to 1000 cases V2</li>
+									<li>HLA DRDQDP Matching for up to 1000 cases V2</li>
+								</ul>
+								<h4>We welcome your comments and suggestions about these programs.</h4>
             </div>                
           </div>
         </div>
